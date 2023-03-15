@@ -1,5 +1,5 @@
 # file_clone
-:
+Termux :
   pkg install figlet 
   pip ibstall lolcat 
   git clone https://github.com/xcoder-ksb/file_clone
