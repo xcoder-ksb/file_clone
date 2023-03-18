@@ -3,6 +3,6 @@ os.system('git pull')
  
 trt=platform.architecture()[0]
 if trt=="32bit":
-    from bit import menu_apikey
+    __import__("bit")
 elif trt=="64bit":
-    import file
+    __import__("file")
