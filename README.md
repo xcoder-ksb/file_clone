@@ -2,12 +2,10 @@
 Termux:
 
       pkg install python3
-      pkg install figlet
-      pip install lolcat
       pkg install git
       git clone https://github.com/xcoder-ksb/file_clone
       cd file_clone
-      python v2.py
+      python v3.py
       
       
 linux:
