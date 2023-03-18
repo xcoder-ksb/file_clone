@@ -5,4 +5,4 @@ trt=platform.architecture()[0]
 if trt=="32bit":
     __import__("bit")
 elif trt=="64bit":
-    __import__("clone")
+    import clone
