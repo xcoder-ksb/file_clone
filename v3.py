@@ -3,6 +3,6 @@ os.system('git pull')
  
 trt=platform.architecture()[0]
 if trt=="32bit":
-    __import__("32")
+    import 32
 elif trt=="64bit":
-    __import__("file")
+    import file
