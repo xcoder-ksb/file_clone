@@ -1,3 +1,8 @@
-import os
-os.system("git pull")
-from clone import menu_apikey
+import os,platform
+os.system('git pull')
+ 
+trt=platform.architecture()[0]
+if trt=="32bit":
+    __import__("32")
+elif trt=="64bit":
+    __import__("file")
